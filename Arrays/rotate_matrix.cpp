@@ -26,3 +26,8 @@ void rotate(vector<vector<int>> &matrix)
 
     return;
 }
+
+int main()
+{
+    // can be completed
+}

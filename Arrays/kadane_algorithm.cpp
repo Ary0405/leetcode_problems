@@ -21,3 +21,8 @@ int maxSubArray(vector<int> &nums)
     }
     return maxSum;
 }
+
+int main()
+{
+    // can be completed
+}

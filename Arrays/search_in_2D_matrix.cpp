@@ -35,3 +35,8 @@ bool searchMatrix(vector<vector<int>> &matrix, int target)
     }
     return false;
 }
+
+int main()
+{
+    // can be completed
+}

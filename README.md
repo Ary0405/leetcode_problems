@@ -6,7 +6,7 @@ While everyone else is getting tan lines, I'm here getting... syntax errors. �
 
 ## What's This About? 🤔
 
-Instead of sipping mojitos by the beach, I'm chugging tea and solving LeetCode or Geeks for Geek problems daily. This repo is my summer diary, filled with code instead of sunscreen.
+Instead of sipping mojitos by the beach, I'm chugging tea and solving LeetCode, Geeks for Geek, Coding Ninjas or Interview Bit problems daily. This repo is my summer diary, filled with code instead of sunscreen.
 
 ## Why Am I Doing This? 💡
 

@@ -1,6 +1,6 @@
-// Problem - 3 (Longest Substring Without Repeating Characters)
+// Problem - 151 (Reverse Words in a String)
 // Time Complexity = O(n)
-// Space Complexity = O (1)
+// Space Complexity = O (n)
 
 #include <iostream>
 #include <vector>

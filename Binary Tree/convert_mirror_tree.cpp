@@ -1,4 +1,4 @@
-// Problem - Mirror Binary Tree (Geekd for Geeks)
+// Problem - Mirror Binary Tree (Geeks for Geeks)
 // Time Complexity - O(n)
 // Space Complexity - O(h)
 
@@ -31,9 +31,9 @@ void mirror(Node *node)
     mirror(node->left);
     mirror(node->right);
 
-    Node* temp = root->left;
-    root->left = root->right;
-    root->right = temp;
+    Node* temp = node->left;
+    node->left = node->right;
+    node->right = temp;
 }
 
 int main()

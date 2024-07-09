@@ -1,0 +1,33 @@
+// Problem - 215 (Kth Largest Element in an Array)
+// Time Complexity - O(nlog(k))
+// Space Complexity - O(k)
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <queue>
+using namespace std;
+
+int findKthLargest(vector<int> &nums, int k)
+{
+    priority_queue<int, vector<int>, greater<int>> minHeap;
+    for(int num : nums)
+    {
+        if(minHeap.size() < k)
+        {
+            minHeap.push(num);
+        }
+        else if(num > minHeap.top())
+        {
+            minHeap.pop();
+            minHeap.push(num);
+        }
+    }
+
+    return minHeap.top();
+}
+
+int main()
+{
+    // can be completed
+}
